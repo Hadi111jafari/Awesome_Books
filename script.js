@@ -107,3 +107,11 @@ document.getElementById('list').addEventListener('click', () => {
   document.getElementById('contact').style.display = 'none';
   document.getElementById('container').style.display = 'block';
 });
+
+document.getElementById('add').addEventListener('click', () => {
+  document.getElementById('book-list').style.display = 'none';
+  document.getElementById('book-form').style.display = 'block';
+  document.getElementById('contact').style.display = 'none';
+  document.getElementById('container').style.display = 'none';
+});
+
