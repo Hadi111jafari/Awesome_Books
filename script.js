@@ -115,3 +115,10 @@ document.getElementById('add').addEventListener('click', () => {
   document.getElementById('container').style.display = 'none';
 });
 
+document.getElementById('con').addEventListener('click', () => {
+  document.getElementById('book-list').style.display = 'none';
+  document.getElementById('book-form').style.display = 'none';
+  document.getElementById('contact').style.display = 'block';
+  document.getElementById('container').style.display = 'none';
+});
+
