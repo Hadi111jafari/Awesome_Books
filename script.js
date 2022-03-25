@@ -121,4 +121,3 @@ document.getElementById('con').addEventListener('click', () => {
   document.getElementById('contact').style.display = 'block';
   document.getElementById('container').style.display = 'none';
 });
-
